@@ -7,7 +7,11 @@ from func.setup_env import *
 
 
 def main() -> None:
-    pass
+    setup_env()
+    config_parse()
+    compile()
+
+    shutil.rmtree(os.path.join(build_dir))
 
 if __name__ == "__main__":
     main()
