@@ -2,6 +2,7 @@
 # ㅋㅋㄹㅃㅃ
 from func.token import *
 from func.debug import *
+from func.chromium import *
 
 from config import __CONFIG__
 
